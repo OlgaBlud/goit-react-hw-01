@@ -1,7 +1,3 @@
-// avatar - посилання на аватар
-// name - ім'я друга
-// isOnline - буль, що сигналізує про стан друга: в мережі або ні.
-
 function FriendListItem({ avatar, name, isOnline }) {
   return (
     <div>
