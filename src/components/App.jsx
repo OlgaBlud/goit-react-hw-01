@@ -8,7 +8,7 @@ import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import userData from "../data/userData.json";
 import friends from "../data/friends.json";
 import transactions from "../data/transactions.json";
-import Profile from "./fvxcrofile/Profile";
+import Profile from "./profile/Profile";
 
 function App() {
   return (
