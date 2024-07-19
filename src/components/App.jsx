@@ -2,9 +2,9 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 import "./App.css";
-import FriendList from "./friends/FriendList";
-import Profile from "./profile/Profile";
-import TransactionHistory from "./transaction-history/TransactionHistory";
+import FriendList from "./FriendList/FriendList";
+import Profile from "./Profile1/Profile";
+import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import userData from "../data/userData.json";
 import friends from "../data/friends.json";
 import transactions from "../data/transactions.json";
