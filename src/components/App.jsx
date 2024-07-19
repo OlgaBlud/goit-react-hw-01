@@ -3,11 +3,12 @@
 // import viteLogo from "/vite.svg";
 import "./App.css";
 import FriendList from "./FriendList/FriendList";
-import Profile from "./Profile/Profile";
+
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import userData from "../data/userData.json";
 import friends from "../data/friends.json";
 import transactions from "../data/transactions.json";
+import Profile from "./fvxcrofile/Profile";
 
 function App() {
   return (
