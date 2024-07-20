@@ -4,11 +4,12 @@
 import "./App.css";
 
 import Profile from "./Profile/Profile";
-import FriendList from "./FriendList/FriendList";
+
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import userData from "../data/userData.json";
 import friends from "../data/friends.json";
 import transactions from "../data/transactions.json";
+import FriendList from "./testname/FriendList";
 
 function App() {
   return (
@@ -23,11 +24,9 @@ function App() {
         />
       </div>
       <div>
-        <h2>Friends List</h2>
         <FriendList friends={friends} />
       </div>
       <div>
-        <h2>Transaction History</h2>
         <TransactionHistory transactions={transactions} />
       </div>
     </>

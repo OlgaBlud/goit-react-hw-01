@@ -2,7 +2,7 @@ import css from "./Profile.module.css";
 function Profile({ name, tag, location, image, stats }) {
   return (
     <>
-      <h2>Profile</h2>
+      <h2 className="taskTitle">Profile</h2>
       <div className={css.profileWrap}>
         <div className={css.profileMainInfoWrap}>
           <img className={css.profileIcon} src={image} alt="User avatar" />
