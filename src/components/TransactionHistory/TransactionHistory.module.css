@@ -1,0 +1,36 @@
+.table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid rgb(131, 131, 131);
+  border-radius: 9px;
+  box-shadow: 13px 11px 48px -3px rgba(122, 122, 122, 1);
+}
+
+.tableHead {
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+
+.tableHeadTitle {
+  padding: 10px 0;
+}
+
+.tableColumn,
+.tableRow {
+  padding: 5px 0;
+  border: 1px solid rgb(168, 168, 168);
+}
+.tableRow:nth-child(odd) {
+  background-color: #fcfcfc;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #d9dbd9;
+}
+
+.transName {
+  text-transform: capitalize;
+}
