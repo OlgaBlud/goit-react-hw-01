@@ -1,0 +1,13 @@
+.friendList {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 9px;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 13px 11px 48px -3px rgba(122, 122, 122, 1);
+}
