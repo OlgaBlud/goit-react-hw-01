@@ -1,0 +1,47 @@
+.profileWrap {
+  border: 3px solid black;
+  border-radius: 9px;
+  margin: 0 auto;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+.profileMainInfoWrap {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profileIcon {
+  width: 200px;
+  border-radius: 100%;
+  background-color: rgb(58, 57, 57);
+  margin-bottom: 30px;
+}
+.userName {
+  font-size: 26px;
+  font-weight: 700;
+}
+.userDescription {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(170, 168, 168);
+}
+.profileList {
+  display: flex;
+  background-color: rgb(202, 202, 202);
+  border-top: 1px solid black;
+}
+.profileListItem {
+  flex-basis: calc(100% / 3);
+  padding: 30px;
+}
+.profileListItem:not(:last-child) {
+  border-right: 1px solid black;
+}
+.profileIndicators {
+  font-size: 20px;
+}
+.profileStatistic {
+  font-size: 26px;
+  font-weight: 700;
+}
