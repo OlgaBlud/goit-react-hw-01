@@ -1,15 +1,10 @@
-// import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
 import "./App.css";
-
 import Profile from "./Profile/Profile";
-
+import FriendList from "./FriendList/FriendList";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import userData from "../data/userData.json";
 import friends from "../data/friends.json";
 import transactions from "../data/transactions.json";
-import FriendList from "./FriendList/FriendList";
 
 function App() {
   return (
